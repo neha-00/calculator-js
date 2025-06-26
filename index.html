@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add the following line to include the external styles.css file -->
+
+    <title>Calculator</title>
+    <style>
+        button { width: 50px; height: 50px; font-size: 18px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <input type="text" id="display" readonly>
+    <br>
+    <button onclick="appendNumber(7)">7</button>
+    <button onclick="appendNumber(8)">8</button>
+    <button onclick="appendNumber(9)">9</button>
+    <button onclick="setOperation('+')">+</button>
+    
+</body>
+
+<script src="server.js"></script>
+</html>
